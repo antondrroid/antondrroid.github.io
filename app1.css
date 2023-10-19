@@ -132,6 +132,7 @@
 
 
             #sidebarL{
+                overflow: scroll;
                 color: aqua;
                 opacity: 80;
                 width: 15%; 
@@ -149,6 +150,7 @@
             }
             /* sdl and sdr */
             .sdl{ 
+                overflow: scroll;
                 width:90%; 
                 height:19%;
                 margin: auto;
@@ -159,6 +161,7 @@
             }
 
             #sidebarR{
+                overflow: scroll;
                 color: aquamarine;
                 opacity: 80;
                 width: 15%; 
@@ -175,6 +178,7 @@
                 
             }
             .sdr{ 
+                overflow: scroll;
                 width:90%; 
                 height:19%;
                 margin: auto;
@@ -223,6 +227,7 @@
                 right:  17%;
             }
             #footer{ 
+                overflow: scroll;
                 /* background-color: #ccc; */
                 position:absolute;
                 top: 85%;bottom: 0;
