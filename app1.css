@@ -1,0 +1,237 @@
+
+/* <!-- this is my block resine site --> */
+
+            div{
+                margin: 0.5%;
+                padding: 0.2%;
+                border: 0.5% solid black;
+                font-size: calc(2px + 1vw); /* 5px is first minimal base size. and 3% of viewport width */
+                color: #a9cab7;
+                background: #1b0909;
+            }
+            
+            #main{
+                /* background-color: #fafafa; */
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            #header1{ 
+                /* background-color: #ccc; */
+                position:absolute;
+                top:0;
+                left: 17%;
+                width: 67%;
+                display: flex;
+            
+            }
+
+            #blck1a { 
+                width:10%; 
+                height:5%;
+                
+                margin: auto;
+                /* background:#f1f1f1;  */
+                float:left; 
+                text-align:center;
+                padding: 1%;
+    
+       }
+            #blck1b { 
+                width:10%; 
+                height:5%;
+                margin: auto;
+                /* background:#f1f1f1;  */
+                float:left; 
+                text-align:center;
+                padding: 1%;
+            }
+
+            #blck1c { 
+                width:10%; 
+                height:5%;
+                margin: auto;
+                /* background:#f1f1f1;  */
+                float:left; 
+                text-align:center;
+                padding: 1%;
+            }
+
+            #blck1d { 
+                width:10%; 
+                height:5%;
+                margin: auto;
+                /* background:#f1f1f1;  */
+                float:left; 
+                text-align:center;
+                padding: 1%;
+       }
+
+            #blck1e { 
+                width:10%; 
+                height:5%;
+                margin: auto;
+                /* background:#f1f1f1;  */
+                float:left;
+                float: inline-end; 
+                text-align:center;
+                padding: 1%;
+           }
+
+            #line_block { 
+                width:10%; 
+                height:5%;
+                margin: auto;
+                /* background:#f1f1f1;  */
+                float:left; 
+                text-align:center;
+                padding: 1%;
+            }
+            
+            #header2{ 
+                /* background-color: #c1c1c1; */
+                position:absolute;
+                top:5%;
+                left: 17%;
+                width: 67%;
+                display: flex;
+            }
+
+            .blck2 { 
+                width:10%; 
+                height:5%;
+                margin: auto;
+                /* background:#f1f1f1;  */
+                float:left; 
+                text-align:center;
+                padding: 1%;
+            }   
+
+            #header3{ 
+                /* background-color: #c3c3c3;
+                background-color: #ccc; */
+                position:absolute;
+                top:10%;
+                left: 17%;
+                width: 67%;
+                display: flex;
+                
+            }
+            .blck3 { 
+                width:10%; 
+                height:5%;
+                margin: auto;
+                /* background:#f1f1f1;  */
+                float:left; 
+                text-align:center;
+                padding: 1%;
+            }
+
+
+            #sidebarL{
+                overflow: scroll;
+                color: aqua;
+                opacity: 80;
+                width: 15%; 
+                max-width: 140px;
+                /* background: #ECF5E4; border-right: 1px solid #443c3e; */
+                top: 0; 
+                bottom: 15%; 
+                position:absolute;
+                left: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                
+            
+            }
+            /* sdl and sdr */
+            .sdl{ 
+                overflow: scroll;
+                width:90%; 
+                height:19%;
+                margin: auto;
+                background:#1b0909; 
+                float:top; 
+                text-align:center;
+                padding: 1%;
+            }
+
+            #sidebarR{
+                overflow: scroll;
+                color: aquamarine;
+                opacity: 80;
+                width: 15%; 
+                max-width: 140px;
+                /* background: #ECF5E4;  */
+                border-left: 1px solid #383133;
+                top: 0; 
+                bottom: 15%; 
+                position:absolute;
+                right: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                
+            }
+            .sdr{ 
+                overflow: scroll;
+                width:90%; 
+                height:19%;
+                margin: auto;
+                background:#1b0909; 
+                float:top; 
+                text-align:center;
+                padding: 1%;
+            }
+            #menu{
+                background-color: #ddd;
+            }
+            #content1{
+                background-color: #39bb39;
+                width: 32%;height: 30%;
+                overflow: scroll;
+                position:absolute;
+                margin: auto;
+                top: 19%;
+                left: 17%;
+            }
+            #content2{
+                color: #b4051c;
+                overflow: scroll;
+                position:absolute;
+                width: 32%;height: 30%;
+                margin: auto;
+              bottom: 16%;
+                left: 17%;   
+            }
+            #content3{
+                color: #e0dd0b;
+                overflow: scroll;
+                width: 33%;height: 30%;
+                position:absolute;
+                margin: auto;
+                top: 19%;
+                right: 17%;
+            }
+            #content4{
+                /* background-color: #e6e6e6; */
+                overflow: scroll;
+                width: 33%;height: 30%;
+                position:absolute;
+                margin: auto;
+                bottom: 16%;
+                right:  17%;
+            }
+            #footer{ 
+                overflow: scroll;
+                /* background-color: #ccc; */
+                position:absolute;
+                top: 85%;bottom: 0;
+                width: 100%;
+            }
+       
+    
