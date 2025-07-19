@@ -12,6 +12,8 @@
             
             #main{
                 /* background-color: #fafafa; */
+				overflow: scroll;
+				
                 position: fixed;
                 top: 0;
                 left: 0;
@@ -20,7 +22,8 @@
             }
 
             #header1{ 
-                /* background-color: #ccc; */
+				overflow: scroll;
+                background-color: #ccc;
                 position:absolute;
                 top:0;
                 left: 17%;
@@ -31,10 +34,10 @@
 
             #blck1a { 
                 width:10%; 
-                height:5%;
+                height:11%;
                 
                 margin: auto;
-                /* background:#f1f1f1;  */
+                background:#f1f1f1;
                 float:left; 
                 text-align:center;
                 padding: 1%;
@@ -42,9 +45,9 @@
        }
             #blck1b { 
                 width:10%; 
-                height:5%;
+                height:12%;
                 margin: auto;
-                /* background:#f1f1f1;  */
+                background:#f1f1f1; 
                 float:left; 
                 text-align:center;
                 padding: 1%;
@@ -52,9 +55,9 @@
 
             #blck1c { 
                 width:10%; 
-                height:5%;
+                height:9%;
                 margin: auto;
-                /* background:#f1f1f1;  */
+                background:#000000; 
                 float:left; 
                 text-align:center;
                 padding: 1%;
@@ -91,25 +94,25 @@
                 padding: 1%;
             }
             
-            #header2{ 
-                /* background-color: #c1c1c1; */
+            /* #header2{ 
+                /* background-color: #c1c1c1; 
                 position:absolute;
                 top:5%;
                 left: 17%;
                 width: 67%;
-                display: flex;
+                display: flex;                                               
             }
 
             .blck2 { 
                 width:10%; 
                 height:5%;
                 margin: auto;
-                /* background:#f1f1f1;  */
+                /* background:#f1f1f1;  
                 float:left; 
                 text-align:center;
                 padding: 1%;
             }   
-
+			*/
             #header3{ 
                 /* background-color: #c3c3c3;
                 background-color: #ccc; */
