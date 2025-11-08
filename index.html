@@ -1,52 +1,173 @@
-<!-- test selectors here -->
-<!--
-Многострочный комментарий.
-В нем поместится очень много информации.
-Может даже целая книга.
--->
-
-</html>
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="styles/app.css"> -->
-    <link rel="stylesheet" href="app.css">
-    <title>Моё описание</title>
-  </head>
-  <body>
-    <main>
-      <!-- BEGIN (write your solution here) -->
-      <h1>Бета версия сайта</h1>
-<h2>Преподаватель профессии верстальщик TEST FOR CHANGE AND PUSH</h2>
+    <meta name="keywords" content="html, css, course">
+    <meta name = "description" content="the basic course html css">
+    <title>v_card_site</title>
+    <style>
+        .header {
+            border-bottom: 2px solid  rgb(86, 69, 69);
+        }
+        /* style in index.html has preference in front of style.css */
+        /* .card {
+            background-color: #eee;
+            padding: 10px;
+            margin-bottom: 10px;
+        } */
 
-<section>
-<h2>образование</h2>
-<ul>
-<li>колледж автоматизации и информационных технологий</li>
-<li>московский энергетический институт кафедра безопасности и информационных технологий</li>
-</ul>
-</section>
-<section>
-  
-<h2>навыки</h2>
-<ol>
-<li><a href = "index1.html" target="_blank">Autodesk Inventor</a></li>
-<li><a href = "index2.html" target="_blank">Altium Designer</a></li>
+        .color {
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header id="header" class="header"><h1>site name</h1>
+            <div class="info">
+                <div class="avatar1">
+                    <img src="images/photo.png" alt="authors photo" class="avatar">
+                </div>
+                
+                <div class="info-text">
+                    <h1>Vladilen Minin</h1>
+                    <p>Я основатель одноименного канала <strong>Youtube</strong> и онлайн школы по программированию <strong>Result School</strong></p>
+        
+                    <p>Я люблю <em>  путешествовать, заниматься спортом и программировать.  </em></p>
+                    <div> 
+                        <h4 >Список социальных сетей</h4>
+                        <nav id="navigation" class="navigation">
+                            
+                            <ol class="list_net">
+                                <li ><a href="#" class="btn">Insta</a></li>
+                                <li><a href="#" class="btn">Telega</a></li>
+                                <li><a href="#"class="btn" >YourTrube</a></li>
+                                <li><a href="#"class="btn">page go to</a></li>
+                                <li><a href="#"class="btn">page go to</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                
+                </div>   
+            
+            
+            </div>   
+        </header>
+        
+        
+        <hr>
+    <!--can use style for header together with other style, with card  -->
+    <!--in this case the styles property summary-->
 
-<li><a href = "index3.html" target="_blank">HTML</a>    </li>
-<li><a href = "index4.html" target="_blank">CSS</a></li>
+        <section class="section">
+            <article id="block1"  class="card hobby" class="card">
+                <h3>Мои хобби</h3>
+            <ol class="list">
+                <li>путешествовать</li>
+                <li>Блоггинг</li>
+                <li>Горные лыжи</li>
+                <li>ММА</li>
+                
+            </ol>
+            </article>
 
-<li><a href = "index5.html" target="_blank">JavaScript</a></li>
-</ol>
-</section>
-<section>
-<h2>Дополнительная информация</h2>
+            <article id="block2"  class="card experience" >
+                <h3> Опыт работы</h3>
+                        <table class="table">
+                <thead>
+                    <tr>
+                        <th>Компания</th>
+                        <th>Должность</th>
+                        <th>Дата начала</th>
+                        <th>Дата окончания</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>LPTracker</td>
+                    <td>Frontend</td>
+                    <td>2015</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>EPAM</td>
+                    <td>SoftwareEngineer</td>
+                    <td>2016</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>Software Outsourcing Services</td>
+                    <td>Senior Frontend</td>
+                    <td>2017</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>YourTrube</td>
+                    <td>Blogger</td>
+                    <td>2017</td>
+                    <td>н.в.</td>
+                </tr>
+                </tbody>
+                
+            </table>
 
-<p>6 лет в аутсорсинговой компании. Развивал клиентские проекты, делал фичи для разных СМС В основном верстал, готов передать весь опыт вам. Поработав с сотнями проектов, научился выкручиваться даже из самых безнадежных ситуаций. Помогу освоить верстку, чтобы она перестала казаться чем-то страшным.</p>
-</section>      
-      <!-- END -->
-    </main>
-  </body>
+                
+                
+            </article>
+
+            <article id="block3" class="card coarses">
+                <h3>Мои курсы</h3>
+                <ul class="link-list">
+                    <li> Профессия Джуниор разработчик</li>
+                    <li> Профессия Мидл разработчик</li>
+                    <li> Профессия Сениор разработчик</li>
+
+                </ul>
+
+            </article>
+        </section>
+        <hr>
+        <aside>
+            <p>
+                <!-- aside is block tag for side blocks on the left and right -->
+            </p>
+        </aside>
+        <footer id="footer" class="footer">
+            <h3>Связаться со мной</h3>
+    <div class="email">      
+        <div class="input">
+            <label for="text1">ваше имя</label>
+            <input type="text" id="text1" placeholder="введите имя" >
+        </div>
+
+
+        <div class="input">
+            <label for="email2">ваш email</label>
+            <input type="email" id="email2" placeholder="mail@yandex.ru">
+        </div>
+    </div>  
+
+    
+
+   
+    
+    <div class="input">
+        <label for="message2">введите сообщение</label>
+        <br>
+        <textarea name="message" id="message2" placeholder="for example, it's fine"  cols="30" rows="10"></textarea>
+        
+    </div>
+
+     <div class="input">
+        <button class="btn" type="submit"> отправить сообщение</button>
+    </div>   
+
+
+        </footer>
+    <!-- <p>div.  will be div class</p> -->
+    <!-- <p>div# will be div id</p> -->
+ </div>
+</body>
 </html>

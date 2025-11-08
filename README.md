@@ -1,2 +1,1 @@
-# antondrroid.github.io
-@antondrroid antondrroid/antondrroid.github.io 
+original is in projects_25/frontend/result_1/visit_card_site

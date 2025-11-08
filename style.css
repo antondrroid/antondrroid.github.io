@@ -1,0 +1,378 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif ;
+    font-size: 16px;
+    font-weight: normal;
+    color: #86898f;
+    background: #0f141e;
+    
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    padding-top: 30px ;
+    /* box-shadow: 4px 4px 24px rgba(112, 27, 27, 0.5); */
+    background: #192130;
+
+}
+
+.avatar {
+    box-shadow: 4px 4px 24px rgba(112, 27, 27, 0.5);
+    width: 200px;
+    border-radius: 35px;
+}
+
+.info {
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 020px;
+}
+
+.info-text h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+}
+
+ /* .navigation{
+    display: flex;
+} */
+
+.list_net li {
+    display: inline;
+}
+
+.email {
+    display: flex;
+}
+
+
+.navigation {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    /* text-align: center; */
+    font-size: 20px;
+    margin: auto;
+    color: #bec5d3;
+}
+
+.table {
+
+    /* border: 3px solid red; */
+    margin-left: 30px;
+}
+
+h1 {
+    color: #bec5d3;
+    margin: auto;
+}
+
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+.section h3 {
+    margin-left: 30px;
+
+}
+
+@media(max-width:850px) {
+    .list_net li {
+    display: block;
+    }
+}
+
+@media(max-width:650px) {
+    .info {
+        display:block;
+        text-align: center;
+    }
+    /* .list_net li {
+    display: block;
+    } */
+    .email {
+        display: block;
+    }
+}
+
+.card{ 
+    border-radius: 10px ;
+    padding: 15px 20px;
+    /* margin: 30px; */
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 14px rgba(42, 38, 126, 0.5);
+    background: #0f141e;
+
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.hobby {
+    background: #21263e;
+
+}
+
+.experience {
+    background: #792b64;
+}
+
+.coarses {
+
+    background: #5e2b3c;
+
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #ff1;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    /* top | left and right | bottom */
+margin: 20px auto 20px;
+    /* margin-bottom: 20px; */
+    /* margin: 10px; */
+    /* margin-right: 8px; */
+    transition: all .4s;
+    font-family: inherit;
+
+
+    
+}
+
+.btn:hover {
+    opacity: .7;
+    color: #b57011 ;
+}
+
+.btn:active {
+    color: #698be3;
+    font-size: 2rem;
+}
+/* .list li {
+    margin-bottom: 20px;
+    gap: 20px;
+} */
+
+li {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+/* change color when mouse above link */
+a:hover {
+    color: #b57011;
+    font-size: 2rem;
+}
+
+/* change color after pressed on link */
+a:visited {
+    color: darkorchid;
+}
+
+/* change color WHILE pressed */
+a:active {
+    color: #698be3;
+}
+
+footer div {
+    margin-bottom: 50px;
+}
+
+/* .footer div {
+    margin-bottom: 40px;
+} */
+
+/* similar will be as footer div margin .input class margin */
+/* .input {
+    margin-bottom: 30px;
+} */
+
+.list {
+    padding: 0 20px;
+}
+
+.list li, 
+.link-list {
+    color: #86898f;
+    margin-bottom: 10px;
+    /* border: 1px solid #371192; */
+}
+
+.link-list {
+    /* remove circles on the left  */
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    /* border-bottom: 1px solid #ccc; */
+    padding-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.table td:nth-child(4),
+.table td:nth-child(3) {
+    color: #85aa2e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
